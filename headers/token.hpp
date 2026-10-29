@@ -1,15 +1,16 @@
 #pragma once
-
 #include<optional>
 
 enum class TokenType {
-    Plus,
-    Minus,
-    Right_Bracket,
-    Left_Bracket,
-    Multiply,
-    Divide,
-    Number,
+    Number = 0,
+    Right_Bracket = 0,
+    Left_Bracket = 0,
+
+    Plus = 1,
+    Minus = 1,
+
+    Multiply = 2,
+    Divide = 2 
 };
 
 struct Token {
