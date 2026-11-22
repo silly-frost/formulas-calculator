@@ -2,15 +2,13 @@
 #include<optional>
 
 enum class TokenType {
-    Number = 0,
-    Right_Bracket = 0,
-    Left_Bracket = 0,
-
-    Plus = 1,
-    Minus = 1,
-
-    Multiply = 2,
-    Divide = 2 
+    Number,
+    Right_Bracket,
+    Left_Bracket,
+    Plus,
+    Minus,
+    Multiply,
+    Divide 
 };
 
 struct Token {
